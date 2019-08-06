@@ -44,3 +44,10 @@ function removeLastKitten(){
   removeKitty.pop();
   return removeKitty;
 }
+
+
+function removeFirstKitten(){
+  var goneKitty = [...kittens];
+  goneKitty.shift();
+  return goneKitty;
+}
